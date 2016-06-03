@@ -1,36 +1,43 @@
-
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
     <title>Chicken Detector!</title>
-
   </head>
-  <body>
-    <h1>Chicken Detector!</h1>
+
+  <body id="body">
+    <!-- responsive grid to picture -->
     <div class="row">
-    <div class="col s2"></div>
-    <div class="col s8">
-    <img src="pics/finger.png" alt="fingerprints" onmousedown="touchstart()" onmouseup=
-    "touchend()"/>
+      <div class="col s1 m4 l4">&nbsp;</div>
+      <div class="col s10 m4 l4">
+      <img class="responsive-img circle center" src="pics/finger.png" alt="fingerprints" onmousedown="touchstart()" onmouseup=
+      "touchend()"/>
+      </div>
+      <div class="col s1 m4 l4">&nbsp;</div>
     </div>
-    <div class="col s2"><SPAN> hey</SPAN></div>
+    <!-- ending responsive grid to picture -->
+    <div class="row">
+      <div class="col s2 m4 l4">&nbsp;</div>
+      <div class="col s8 m4 l4">
+      <p id="boop" class="center"></p>
+      </div>
+      <div class="col s2 m4 l4">&nbsp;</div>
     </div>
-  <p id="boop"></p>
+
+
+
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/home.js"> </script>
-    <link rel="stylesheet" href="materialize/css/materialize.css"/>
     <script type="text/javascript" src="materialize/js/materialize.js"> </script>
     <script type="text/javascript" src="mdl/material.js"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-
-
   </body>
 </html>
 

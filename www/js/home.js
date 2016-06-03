@@ -60,3 +60,10 @@ var calcChickenPercentage = function(){
     var percents = Math.random() * 100;
     return Math.round(percents);
 }
+
+
+
+// trials
+//$('#body').css('min-height', screen.height);
+//$('#body').css('min-width', screen.width);
+//document.getElementById('body').style.height = window.innerHeight +'px';
